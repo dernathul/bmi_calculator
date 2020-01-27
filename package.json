@@ -1,0 +1,19 @@
+{
+    "name": "bmi_calculator",
+    "version": "1.0.0",
+    "description": "bmi calculator for exercise",
+    "main": "index.js",
+    "repository": "https://github.com/dernathul/bmi_calculator.git",
+    "author": "mr.lau",
+    "license": "MIT",
+    "devDependencies": {
+        "": "^3.8.3"
+    },
+    "dependencies": {
+        "superstatic": "^6.0.4"
+    },
+    "scripts": {
+        "start": "superstatic src --port 3001",
+        "cy:open": "yarn start & cypress open"
+    }
+}
